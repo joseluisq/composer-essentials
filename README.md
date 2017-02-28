@@ -1,11 +1,14 @@
 # composer-essentials
-> A [composer](https://getcomposer.org) global essential packages.
+> Some [Composer](https://getcomposer.org) global essential packages.
+
+Needs [latest Composer version](https://getcomposer.org/download/) installed before. 
 
 ## Packages
 
 ```sh
-composer global require "laravel/installer"
-composer global require "squizlabs/php_codesniffer=*"
-composer global require "friendsofphp/php-cs-fixer"
-composer global require "phpunit/phpunit"
+composer global require \
+"laravel/installer" \
+"squizlabs/php_codesniffer=*" \
+"friendsofphp/php-cs-fixer" \
+"phpunit/phpunit"
 ```
